@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>contact us</title>
+
+  <style>
+    body {
+      
+      margin: 0;
+      padding: 0;
+      background: #f8f9fa;
+    }
+    #header {
+      height:120px;
+      width:55%;
+      background:#035B33;
+      float:right;
+     
+    }
+   #header h1 
+{
+     color:white;
+     margin-top:35px;
+     
+    }
+#header2 {
+       height:120px;
+       width:45%;
+       background:#035B33;
+  }     
+       
+  #header2 img
+{
+  height:60px;
+  width:70px;
+  margin-right:25px;
+  float:right;
+  margin-top:27px;
+ 
+}
+#sapcer
+{
+	  height:50px;
+	  width:100%;
+          background-color:#c7cfbe;
+	  border-radius:5px;
+          
+          
+}
+#sapcer img
+{
+ 	 height:40px;
+	 width:200px;
+         padding:4px;	  
+}
+#sapcer ul
+{
+	float:right;
+}
+#sapcer ul li
+{
+display:inline;
+margin-right:11px;
+color:#035B33;
+}
+#sapcer ul li a
+{
+margin-right:11px;
+color:#035B33;
+}
+
+    .section {
+      padding: 20px;
+    }
+    .services, .contact {
+      background: #a0bd7e;;
+      margin: 20px auto;
+      padding: 20px;
+      border-radius: 8px;
+      max-width: 700px;
+      color:#035B33;
+    }
+    .btn {
+      background: #035B33;;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+      font-family:times new roman;
+    }
+    .btn:hover {
+      background: #218838;
+    }
+    .form-input {
+      margin-bottom: 15px;
+      display: block;
+      width: 100%;
+      padding: 8px;
+      border-radius: 5px;
+      border: 2px solid #035B33;
+      font-size: 14px;
+      background-color:#c7cfbe;;
+      font-family:"Times New Roman";
+      color: #035B33;
+    }
+    label {
+      font-weight: bold;
+      margin-bottom: 5px;
+      display: block;
+      font-size: 14px;
+    }
+    select.form-input {
+      height: 45px;
+    }
+#contactus {
+      background:#035B33; ;
+      margin: 20px auto;
+      padding: 20px;
+      border-radius: 8px;
+      max-width: 700px;
+      color:white;
+    }
+.bot
+{
+   background: #035B33;;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      border:none;
+      cursor: pointer;
+      font-size: 16px;
+      font-family:times new roman;
+      float:right;
+      text-decoration:none;
+}
+  
+/* Shared responsive layout - original Icon Travels green palette retained */
+* { box-sizing: border-box; }
+html, body { width: 100%; max-width: 100%; margin: 0; overflow-x: hidden; }
+img { max-width: 100%; }
+.icon-site-header {
+  width: 100%; min-height: 78px; padding: 10px 4%;
+  background: #c7cfbe; border-radius: 5px;
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 18px; flex-wrap: wrap;
+}
+.icon-brand { display: inline-flex; align-items: center; }
+.icon-brand img { display: block; width: 200px; max-width: 42vw; height: auto; }
+.icon-nav { display: flex; align-items: center; justify-content: flex-end; flex-wrap: wrap; gap: 8px; }
+.icon-nav a {
+  color: #035B33; text-decoration: none; font-weight: 600;
+  padding: 9px 13px; border-radius: 20px;
+}
+.icon-nav a:hover { color: #035B33; background: #eaede7; }
+#container { max-width: 100%; }
+#container img { max-width: 100%; }
+#sider, #sidefooter { max-width: 100%; }
+@media (max-width: 767.98px) {
+  .icon-site-header { justify-content: center; padding: 12px 10px; gap: 8px; }
+  .icon-brand img { width: 185px; max-width: 75vw; }
+  .icon-nav { width: 100%; justify-content: center; gap: 2px; }
+  .icon-nav a { padding: 8px 10px; font-size: 15px; }
+  #container { width: 100% !important; height: auto !important; min-height: 0 !important; padding: 12px !important; }
+  #container > img { display: block; width: 100% !important; height: auto !important; margin: 0 auto 14px !important; }
+  #cont1, #cont2, #cont3 {
+    display: block !important; float: none !important; width: 100% !important;
+    height: auto !important; min-height: 0 !important; margin: 12px 0 !important;
+    padding: 12px 12px 20px !important;
+  }
+  #topbar { height: 12px !important; width: 100% !important; float: none !important; }
+  #topbar1, #header, #header2 { display: none !important; }
+  #abt { width: auto !important; height: auto !important; margin: 12px 4px 22px !important; }
+  #abt b { font-size: 36px !important; }
+  #air, #bus, #train, #visa, #pass, #dtp {
+    display: block !important; float: none !important; width: 100% !important;
+    height: auto !important; margin: 18px 0 0 !important; padding: 10px !important;
+    text-align: center;
+  }
+  #air img, #bus img, #train img, #visa img, #pass img, #dtp img {
+    display: block; width: min(230px, 85%) !important; height: 155px !important;
+    object-fit: contain; margin: 0 auto !important;
+  }
+  #air1, #bus1, #train1, #visa1, #pass1, #dtp1 {
+    display: block !important; float: none !important; clear: both;
+    width: 100% !important; height: auto !important; margin: 0 0 20px !important;
+    padding: 12px !important;
+  }
+  #air1 p, #bus1 p, #train1 p, #visa1 p, #pass1 p, #dtp1 p {
+    margin: 8px !important; font-size: 16px !important; line-height: 1.6;
+  }
+  #visah, #passh, #dtph, #poster {
+    width: auto !important; height: auto !important; margin: 24px 4px 12px !important;
+    padding: 6px 12px !important;
+  }
+  #visah p, #passh p, #dtph p, #poster p { font-size: 30px !important; margin: 0 !important; }
+  #p1, #p2, #p3, #p4, #p5, #p6, #dtppo {
+    display: inline-block !important; float: none !important; vertical-align: top;
+    width: calc(50% - 12px) !important; height: 190px !important;
+    margin: 5px !important; padding: 6px !important;
+  }
+  #p1 img, #p2 img, #p3 img, #p4 img, #p5 img, #p6 img, #dtppo img {
+    width: 100% !important; height: 100% !important; object-fit: contain; margin: 0 !important;
+  }
+  #btps { height: auto !important; padding: 8px !important; }
+  #btps img { width: 28% !important; height: auto !important; margin: 5px !important; }
+  #sidefooter, #sider { display: block !important; float: none !important; width: 100% !important; height: auto !important; min-height: 0; padding: 16px !important; }
+  #design { display: none !important; }
+  #sidefooter p b { display: block; float: none !important; width: auto !important; height: auto !important; margin: 8px !important; }
+  #bar { height: auto !important; min-height: 30px; }
+  .services, .contact, #contactus { width: calc(100% - 24px) !important; max-width: 700px; height: auto !important; margin: 14px auto !important; padding: 16px !important; }
+  .form-input, input, select, textarea { width: 100% !important; max-width: 100%; }
+  form { max-width: 100%; }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  #cont1, #cont2, #cont3 { width: calc(33.333% - 18px) !important; margin: 8px !important; }
+  #air, #bus, #train, #visa, #pass, #dtp { margin-left: 20px !important; width: 20% !important; }
+  #air1, #bus1, #train1, #visa1, #pass1, #dtp1 { width: 70% !important; margin-right: 20px !important; }
+}
+
+</style>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+<header class="icon-site-header">
+  <a class="icon-brand" href="Home.html">
+    <img src="travels/ICON TRAVELS.png" alt="Icon Travels logo">
+  </a>
+  <nav class="icon-nav" aria-label="Main navigation">
+    <a href="Home.html">Home</a>
+    <a href="About.html">About Us</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+<div class="services">
+  <h2>For Booking</h2>
+  <ul>
+    <li>🚆 Train Tickets (All India)</li>
+    <li>🚌 Bus Tickets</li>
+    <li>✈️ Flight Bookings (Domestic & International)</li>
+  </ul>
+  <p>✅ Lowest Fare Guaranteed<br>✅ Instant Booking with WhatsApp Ticket</p>
+</div>
+
+<div class="contact">
+  <h2>Book Now</h2	>
+  <form onsubmit="sendWhatsApp(); return false;">
+
+    <label for="customer_name">Passenger Name</label>
+    <input class="form-input" type="text" id="customer_name" placeholder="enter passenger name" required>
+
+    <label for="phone">Phone Number</label>
+    <input class="form-input" type="tel" id="phone" maxlength="10" pattern="[0-9]{10}" placeholder="enter phone number" required>
+
+    <label for="gender">Gender</label>
+    <select class="form-input" id="gender" required>
+      <option value=""disabled selected>Select Gender</option>
+      <option value="Male">Male</option>
+      <option value="Female">Female</option>
+    </select>
+
+    <label for="age">Age</label>
+    <input class="form-input" type="number" id="age" min="1" placeholder="Enter Age" required>
+
+    <label for="travelDate"> Travel  Date</label>
+    <input class="form-input" type="date" id="travelDate" placeholder="enter travel date" required>
+
+    <label for="travelType">Type</label>
+    <select class="form-input" id="travelType" onchange="updateSubOptions()" required>
+      <option value="" disabled selected>Select Type</option>
+      <option value="Train">Train</option>
+      <option value="Bus">Bus</option>
+      <option value="Flight">Flight</option>
+    </select>
+
+    <label for="from">From</label>
+    <select id="from" class="form-input" required></select>
+
+    <label for="to">To</label>
+    <select id="to" class="form-input" required></select>
+
+    <label id="label1" style="display: none;">Option 1</label>
+    <select class="form-input" id="option1" style="display: none;"></select>
+
+    <label id="label2" style="display: none;">Option 2</label>
+    <select class="form-input" id="option2" style="display: none;"></select>
+
+    <label for="message">Other Details / Description</label>
+    <textarea class="form-input" id="message" placeholder="Extra details, preferences..." required></textarea>
+ 
+    <button class="btn" type="submit">Submit</button> <a class="bot" href="Home.html">back</a>
+  </form>
+</div>
+ 
+<div id="contactus">
+  <h2>Contact Us</h2>
+  <p>
+    📞 Call / WhatsApp: <a href="https://wa.me/919884457776" target="_blank">9884457776</a><br>
+    📧 Email: <a href="mailto:icontravels6@gmail.com">icontravels6@gmail.com</a><br>
+    📍 Address: No. 7, Jaffer Serang Street, Near National Hospital, Mannady, Chennai - 600001
+  </p>
+</div>
+
+<script>
+  const locations = [
+    "Chennai Central (MAS)", "New Delhi (NDLS)", "Mumbai CST (CSMT)", "Howrah (HWH)", "Secunderabad (SC)",
+    "Bangalore City (SBC)", "Hyderabad (HYB)", "Coimbatore (CBE)", "Madurai (MDU)", "Trichy (TPJ)",
+    "Thiruvananthapuram (TVC)", "Ernakulam (ERS)", "Tirunelveli (TEN)", "Salem", "Erode",
+    "Chennai Airport (MAA)", "Delhi IGI Airport (DEL)", "Mumbai Airport (BOM)", "Bangalore Airport (BLR)",
+    "Hyderabad Airport (HYD)", "Kolkata Airport (CCU)", "Cochin Airport (COK)", "Trichy Airport (TRZ)",
+    "Dubai International (DXB)", "Singapore Changi (SIN)", "Doha Hamad (DOH)", "London Heathrow (LHR)",
+    "New York JFK (JFK)", "Kuala Lumpur (KUL)", "Bangkok Suvarnabhumi (BKK)", "Frankfurt (FRA)",
+    "Paris CDG (CDG)", "Tokyo Narita (NRT)", "Toronto Pearson (YYZ)", "Melbourne (MEL)", "Sydney (SYD)",
+    "Chennai CMBT", "Tambaram", "Koyambedu", "T Nagar", "Madhavaram", "Poonamallee", "Kanchipuram",
+    "Vellore", "Karur", "Theni", "Dindigul", "Thanjavur", "Nagercoil", "Tuticorin", "Kanyakumari",
+    "Tenkasi", "Pollachi", "Ooty", "Cuddalore", "Nagapattinam", "Velankanni", "Chidambaram",
+    "Rameswaram", "Kumbakonam", "Hosur", "Ambur", "Tiruvannamalai","Adirampattinam",
+  ];
+
+  const fromSelect = document.getElementById("from");
+  const toSelect = document.getElementById("to");
+
+  locations.forEach(loc => {
+    fromSelect.add(new Option(loc, loc));
+    toSelect.add(new Option(loc, loc));
+  });
+
+  $(document).ready(function () {
+    $('#from').select2({ placeholder: "Select From", width: '100%' });
+    $('#to').select2({ placeholder: "Select To", width: '100%' });
+  });
+
+  function updateSubOptions() {
+    const travelType = document.getElementById("travelType").value;
+    const option1 = document.getElementById("option1");
+    const option2 = document.getElementById("option2");
+    const label1 = document.getElementById("label1");
+    const label2 = document.getElementById("label2");
+
+    option1.style.display = 'none';
+    option2.style.display = 'none';
+    label1.style.display = 'none';
+    label2.style.display = 'none';
+    option1.innerHTML = '';
+    option2.innerHTML = '';
+
+    if (travelType === "Bus") {
+      label1.textContent = "Bus Type";
+      label1.style.display = 'block';
+      option1.style.display = 'block';
+      option1.innerHTML = `
+        <option value="" disabled selected>Select Bus Type</option>
+        <option value="A/C">A/C</option>
+        <option value="Non A/C">Non A/C</option>
+      `;
+      option1.onchange = () => {
+        label2.textContent = "Seat Type";
+        label2.style.display = 'block';
+        option2.style.display = 'block';
+        option2.innerHTML = `
+          <option value="" disabled selected>Select Seat Type</option>
+          <option value="Sleeper">Sleeper</option>
+          <option value="Seater">Seater</option>
+        `;
+      };
+    } else if (travelType === "Train") {
+      label1.textContent = "Class";
+      label1.style.display = 'block';
+      option1.style.display = 'block';
+      option1.innerHTML = `
+        <option value="" disabled selected>Select Class</option>
+        <option value="1A">1A</option>
+        <option value="2A">2A</option>
+        <option value="3A">3A</option>
+        <option value="SL">SL</option>
+      `;
+    } else if (travelType === "Flight") {
+      label1.textContent = "Flight Class";
+      label1.style.display = 'block';
+      option1.style.display = 'block';
+      option1.innerHTML = `
+        <option value="" disabled selected>Select Flight Class</option>
+        <option value="Economy">Economy</option>
+        <option value="Business">Business</option>
+      `;
+    }
+  }
+
+  function sendWhatsApp() {
+    const name = document.getElementById('customer_name').value.trim();
+    const phone = document.getElementById('phone').value.trim();
+    const gender = document.getElementById('gender').value;
+    const age = document.getElementById('age').value;
+    const date = document.getElementById('travelDate').value;
+    const travel = document.getElementById('travelType').value;
+    const from = document.getElementById('from').value;
+    const to = document.getElementById('to').value;
+    const option1Val = document.getElementById('option1').value || 'N/A';
+    const option2Val = document.getElementById('option2').value || 'N/A';
+    const message = document.getElementById('message').value.trim();
+
+    if (!name || !phone || !gender || !age || !date || !travel || !from || !to || !message) {
+      alert('Please fill all required fields.');
+      return;
+    }
+
+    const fullMessage =
+`Passenger Name: ${name}
+Phone Number: ${phone}
+Gender: ${gender}
+Age: ${age}
+Date: ${date}
+Type: ${travel}
+From: ${from}
+To: ${to}
+A/c or Non A/c: ${option1Val}
+Seat type: ${option2Val}
+Other Details: ${message}`;
+
+    const encoded = encodeURIComponent(fullMessage);
+    const waUrl = `https://wa.me/919884457776?text=${encoded}`;
+    window.open(waUrl, '_blank');
+
+    setTimeout(() => {
+      alert('Booking details sent via WhatsApp!');
+      document.querySelector("form").reset();
+      $('#from').val(null).trigger('change');
+      $('#to').val(null).trigger('change');
+      updateSubOptions();
+    }, 500);
+  }
+
+  // Set minimum travel date to today
+  document.getElementById("travelDate").min = new Date().toISOString().split("T")[0];
+</script>
+
+</body>
+</html>	
